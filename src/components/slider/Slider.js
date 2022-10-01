@@ -24,7 +24,7 @@ const Slider = () => {
           960: {
             slidesPerPage: 1,
             arrows: false,
-            itemWidth: 250,
+            itemWidth: 550,
           },
         }}
       />

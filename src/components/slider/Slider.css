@@ -86,3 +86,19 @@
     width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  .carousel-container {
+    flex-direction: column;
+  }
+
+  .carousel-title {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 50px 0;
+  }
+
+  .slide-container {
+    width: 250%;
+  }
+}
