@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import fotoHector from "/Users/G-FIVE/Documents/Codigo/Portfolio3D/Website-Portfolio-master/src/media/fotoHectorGris.jpg"
+import fotoHector from "../assets/fotoHectorGris.jpg"
 
 const About = () => {
   return (
