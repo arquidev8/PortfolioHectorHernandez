@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import fotoHector from "../assets/fotoHectorGris.jpg"
+import fotoHector from "../assets/fotoHector.jpg"
 
 const About = () => {
   return (
