@@ -1,14 +1,15 @@
 import React from "react";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
-import Slides from "./Slides";
+import slidesGrafico from "./SlidesGrafico";
 import "./Slider.css";
 
-const Slider = () => {
+
+const SliderGrafico = () => {
   return (
     <div className="carousel-container">
       <div className="carousel-title">
-        <h2>Arquitectura</h2>
+        <h2>Diseño Grafico</h2>
       </div>
 
       <Carousel
@@ -19,7 +20,7 @@ const Slider = () => {
         centered
         offset={30}
         itemWidth={600}
-        slides={Slides}
+        slides={slidesGrafico}
         breakpoints={{
           960: {
             slidesPerPage: 1,
@@ -32,4 +33,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default SliderGrafico;

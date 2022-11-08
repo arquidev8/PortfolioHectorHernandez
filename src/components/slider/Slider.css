@@ -23,13 +23,14 @@
 }
 
 .slide-container > img {
+  width: 61rem;
 
   object-fit: contain;
   transition: all 0.2s ease-in-out;
 }
 
 .slide-container:hover > img {
-  transform: scale(1.2);
+  transform: scale(1.1);
   opacity: 0.7;
 }
 
@@ -45,6 +46,7 @@
 }
 
 .slide-desc > span {
+ 
   color: white;
   display: block;
   font-size: 22px;
